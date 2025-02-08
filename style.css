@@ -3,10 +3,10 @@
 }
 
 /* ------------------nav------------------- */
-.logo-img {
+/* .logo-img {
     width: 2%;
     height: 25px;
-}
+} */
 
 /* ----------------main--------------------- */
 .my-img {
@@ -29,17 +29,6 @@
     gap: 10px;
 }
 
-ul {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-}
-
-li {
-    list-style-type: none;
-    padding: 5px;
-}
-
 .sec-2 {
     display: flex;
     justify-content: center;
@@ -52,27 +41,47 @@ li {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-left: 20%;
+    
+}
+.Project .Skill .Contact p{
+    text-overflow: wrap;
+    text-align: center;
+    /* margin-top: 10px; */
 }
 
 .project {
-    width: 7%;
+    width: 9%;
     height: 120px;
+    margin: 5px;
     background-color: yellow;
     border-radius: 50%;
 }
 
 .skill {
-    width: 7%;
+    width: 9%;
     height: 120px;
+    margin: 5px;
     background-color: rgb(255, 0, 93);
     border-radius: 50%;
 }
 
 .contact {
-    width: 7%;
+    width: 9%;
     height: 120px;
+    margin: 5px;
     background-color: aqua;
     border-radius: 50%;
+}
+ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+li {
+    list-style-type: none;
+    padding: 5px;
 }
 
 /* ----------------footer-------------------- */
